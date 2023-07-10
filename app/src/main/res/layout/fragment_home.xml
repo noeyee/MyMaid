@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/df"
+    android:id="@+id/mainhome"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="120dp"
+        android:text="บริการ" />
+
+    <EditText
+        android:id="@+id/edittextservice"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/editext"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="30dp"
+        android:text="วัน" />
+
+    <EditText
+        android:id="@+id/edittextdate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/editext" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/black"
+        android:text="เวลา" />
+
+    <EditText
+        android:id="@+id/edittexttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/editext"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:text="ชั่วโมง" />
+
+    <EditText
+        android:id="@+id/edittexthour"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/editext" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:text="ชำระเงิน"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/edittextpay"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="275dp"
+        android:background="@drawable/editext" />
+
+    <Button
+        android:id="@+id/btok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#4C6EB0"
+        android:padding="10dp"
+        android:text="ยืนยัน" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="g"
+        android:visibility="invisible" />
+
+</FrameLayout>
