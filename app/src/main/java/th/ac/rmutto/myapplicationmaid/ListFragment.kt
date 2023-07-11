@@ -1,5 +1,4 @@
 package th.ac.rmutto.myapplicationmaid
-
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -57,7 +56,7 @@ class ListFragment : Fragment() {
     fun viewUser(custID: String) //แสดงรายละเอียด
     {
         Log.d("tag", "x1")
-        var url: String = getString(R.string.root_url) + getString(R.string.requestprovider_url) + custID
+        var url: String = getString(R.string.root_url) + getString(R.string.requestcurrent_url) + custID
         Log.d("tag", url)
         val okHttpClient = OkHttpClient()
         val request: Request = Request.Builder()
@@ -78,7 +77,7 @@ class ListFragment : Fragment() {
                         var hour = data.getString("hour")
                         var price = data.getString("price")
 
-                        Log.d("tag", "x4")
+
                         if(serviceName.equals("null"))serviceName = "-"
                         txtservice?.text = serviceName
 

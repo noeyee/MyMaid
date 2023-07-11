@@ -73,6 +73,7 @@ class LoginActivity : AppCompatActivity() {
             try{
                 Log.d("tag", "x2")
                 val response = okHttpClient.newCall(request).execute()
+                Log.d("tag", "x22")
                 if(response.isSuccessful){
                     Log.d("tag", "x3")
                     val obj = JSONObject(response.body!!.string())
